@@ -6,7 +6,7 @@
 ##Anggota Kelompok 
 Yosua Prima Gultom          : 140810170038
 Ade Dwi Fatwa Sembiring     : 140810200044
-ALfian Billqqistshi         : 
+Alfin Bilqisthi             : 140810160052
 Raihan M.                   : 140810170032
 
 ```
