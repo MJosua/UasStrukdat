@@ -40,4 +40,10 @@ pada program Billing warnet karena pada
 sistem warnet, yang pertame memesan adalah
 yang pertama memakai.
 
+Pertimbagan yang kami ambil adalah karena program log billing warnet lebih cocok ke sistem FIFO (first in first out) yaitu pada konsep queue sedangkan konsep stack menggunakan sistem LIFO (last in first out). Konsep stack tetap kami pakai namun dalam penerapannya kami ingin membuat dalam program jadwal staf yang bekerja. dengan konsep stack maka data staf di warnet yang bekerja pada hari tersebut dapat dilihat. 
+
+Selain kedua konsep diatas stack dan queue kami juga menerapkan konsep pada linked list yang dimana pada program log billing secara tidak langsung kami juga memakai konsep linked list ini. Konsep queue ini merupakan pengembangan dari konsep linked list. 
+
+Kemudian kami juga menimbang untuk menggunakan konsep Graf untuk melihat jaringan local area network pada komputer
+Jadi untuk memenuhi syarat dari tugas akhir praktikum struktur data ini kami menerapkan 3 konsep yaitu queue dan linked list untuk log billing dan konsep stack pada program jadwal staf yang bekerja pada warnet, kemudian graf untuk memantau network.
 
