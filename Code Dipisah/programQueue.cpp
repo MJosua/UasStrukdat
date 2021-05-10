@@ -15,11 +15,14 @@ using namespace std;
 int main() {
     int item, choice, i;
     int arr_queue[MAX_SIZE];
+	int arr_queue2[MAX_SIZE];
     int rear = 0;
     int front = 0;
     int exit = 1;
-	int jam = 1;
-	int harga = 3000;
+	int rearnama = 0;
+    int frontnama = 0;
+	int jam;
+	int harga;
 	time_t now = time(0);
 	int nomorpc = 10;
 	string pembeli = "Tono";
@@ -56,8 +59,13 @@ int main() {
 				cout << "Input nama pelanggan ( masukkan ' - ' bila tidak ada ) : "<<endl;
 				cout << " Nama Pembeli : ";
 					cin>>pembeli;
-                cout << "\n## Tiket telah dibuat \n ID Pesanan : " << rear + 1 << " , Nomor PC  : " << item << ", nama pelanggan :" << pembeli;
+					harga = 3000;
+					jam = 1;
+                cout << "\n## Tiket telah dibuat \n ID Pesanan : " << rear + 1 << " , Nomor PC  : " << item << ", nama pelanggan :" << pembeli<<endl;
+				cout << " harga " << harga ;
+				cout << " Selama " << jam<<" jam" ;
                 arr_queue[rear++] = item;
+				arr_queue2[rearnama++] = harga;
                 }
                 break;
             case 2:
@@ -73,7 +81,7 @@ int main() {
                 for (i = front; i < rear; i++){
                     cout << "\t\t^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n";
 					cout << " \n\t\t ## ID Tiket : " << i ;
-					cout << " \t\tHarga RP." << harga << endl;
+					cout << " \t\tHarga RP." << arr_queue2[i] << endl;
 					cout << "\t\t===============================================\n\n"; 
 					cout << " \t\t Paket " << jam << " jam , PC  : " << arr_queue[i];
 					cout << " \tAtas Nama : " << pembeli << endl<< endl;
