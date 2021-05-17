@@ -143,10 +143,10 @@ int main() {
            cout << " \n\n";          
 		   cout << " \n";            
 		   cout << "\t\t ===============================================\n"; 
-           cout << "\t\t| Selamat datang Staff Alfian, selamat bekerja !|" << endl;            
+           cout << "\t\t| Selamat datang Staff Alfin, selamat bekerja !|" << endl;            
            cout << "\t\t| ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |" << endl;            
            cout << "\t\t ===============================================\n\n";  
-		   username="alfian";
+		   username="alfin";
            i = 4;
            login = "berhasil";    
 		   getch();
