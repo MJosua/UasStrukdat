@@ -10,17 +10,17 @@
 using namespace std; // std agar tidak perlu menggunakan std disetiap fungsi;
 
    void kerja(); // deklrasai fungsi kerja
-   void pilih(); // deklrasai fungsi
-   void sejam(); // deklrasai fungsi
-   void duajam(); // deklrasai fungsi
-   void limajam(); // deklrasai fungsi
-   void paketsepuluh(); // deklrasai fungsi
-   void tampil(); // deklrasai fungsi
-   void absensi();
-   void hapus();
-   void bersih();
-   void awal();
-   void graf();
+   void pilih(); // deklrasai fungsi pilih
+   void sejam(); // deklrasai fungsi sejam
+   void duajam(); // deklrasai fungsi duajam
+   void limajam(); // deklrasai fungsi limajam
+   void paketsepuluh(); // deklrasai fungsi paketsepuluh
+   void tampil(); // deklrasai fungsi tampil
+   void absensi(); // deklrasai fungsi absensi
+   void hapus(); // deklrasai fungsi hapus
+   void bersih(); // deklrasai fungsi bersih
+   void awal(); // deklrasai fungsi awal
+   void graf(); // deklrasai fungsi graf
    
    int pil, pilihan, data; // deklrasai variabel Pil bertip integer
    int item, choice;
@@ -518,7 +518,7 @@ void absensi(){
         cout << "\t\t||      Absensi untuk 1 hari masukkan kode tiap-tiap admin      ||\n";
         cout << "\t\t||-------------------------- 1. yosua  -------------------------||\n";
         cout << "\t\t||-------------------------- 2. raihan -------------------------||\n";
-        cout << "\t\t||-------------------------- 3. Alfian -------------------------||\n";
+        cout << "\t\t||-------------------------- 3. Alfin --------------------------||\n";
         cout << "\t\t||-------------------------- 4. Ade    -------------------------||\n";
         cout << "\t\t  ==============================================================\n";
         cout << "\t\t===================================================================\n";
