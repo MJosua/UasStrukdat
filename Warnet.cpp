@@ -59,7 +59,7 @@ int main() {
    string password1 = "12345";   
    string user2 ="raihan";    // deklarasi user2 beserta isinya
    string password2 = "12345";  
-   string user3 ="alfian";    // deklarasi user3 beserta isinya
+   string user3 ="alfin";    // deklarasi user3 beserta isinya
    string password3 = "12345";  
    string user4="ade";// deklrasi user4 beserta isinya   
    string password4 ="12345";
