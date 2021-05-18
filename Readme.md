@@ -8,6 +8,7 @@ Yosua Prima Gultom          : 140810170038
 Ade Dwi Fatwa Sembiring     : 140810200044
 Alfin Bilqisthi             : 140810160052 
 Raihan M.                   : 140810170032
+Adnan Januar Yunaz          : 140810160030
 
 ```
 
