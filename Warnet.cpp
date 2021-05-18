@@ -22,7 +22,7 @@ using namespace std; // std agar tidak perlu menggunakan std disetiap fungsi;
    void awal(); // deklarasi fungsi awal
    void graf(); // deklarasi fungsi graf
    
-   int pil, pilihan, data; // deklrasai variabel Pil bertip integer
+   int pil, pilihan, data; // deklarasi variabel Pil bertip integer
    int item, choice;
    int i;
    int arr_queue[MAX_SIZE];
@@ -61,7 +61,7 @@ int main() {
    string password2 = "12345";  
    string user3 ="alfin";    // deklarasi user3 beserta isinya
    string password3 = "12345";  
-   string user4="ade";// deklrasi user4 beserta isinya   
+   string user4="ade";// deklarasi user4 beserta isinya   
    string password4 ="12345";
    string user5 ="adnan";    // deklarasi user5 beserta isinya
    string password5 = "12345";   
