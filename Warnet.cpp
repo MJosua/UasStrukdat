@@ -9,18 +9,18 @@
 
 using namespace std; // std agar tidak perlu menggunakan std disetiap fungsi;
 
-   void kerja(); // deklrasai fungsi kerja
-   void pilih(); // deklrasai fungsi pilih
-   void sejam(); // deklrasai fungsi sejam
-   void duajam(); // deklrasai fungsi duajam
-   void limajam(); // deklrasai fungsi limajam
-   void paketsepuluh(); // deklrasai fungsi paketsepuluh
-   void tampil(); // deklrasai fungsi tampil
-   void absensi(); // deklrasai fungsi absensi
-   void hapus(); // deklrasai fungsi hapus
-   void bersih(); // deklrasai fungsi bersih
-   void awal(); // deklrasai fungsi awal
-   void graf(); // deklrasai fungsi graf
+   void kerja(); // deklarasi fungsi kerja
+   void pilih(); // deklarasi fungsi pilih
+   void sejam(); // deklarasi fungsi sejam
+   void duajam(); // deklarasi fungsi duajam
+   void limajam(); // deklarasi fungsi limajam
+   void paketsepuluh(); // deklarasi fungsi paketsepuluh
+   void tampil(); // deklarasi fungsi tampil
+   void absensi(); // deklarasai fungsi absensi
+   void hapus(); // deklarasi fungsi hapus
+   void bersih(); // deklarasi fungsi bersih
+   void awal(); // deklarasi fungsi awal
+   void graf(); // deklarasi fungsi graf
    
    int pil, pilihan, data; // deklrasai variabel Pil bertip integer
    int item, choice;
@@ -63,6 +63,8 @@ int main() {
    string password3 = "12345";  
    string user4="ade";// deklrasi user4 beserta isinya   
    string password4 ="12345";
+   string user5 ="adnan";    // deklarasi user5 beserta isinya
+   string password5 = "12345";   
    string login = "block";    
    i = 1;    
    system("Color 70");
@@ -170,6 +172,25 @@ int main() {
 		   getch();
 		   kerja(); // memanggil funsi kerja
 		   } 	
+	  
+	  else if (user_input == user5 && pass_input == password5) {    
+	   	   system("cls");        
+		   cout << "\t\t\t\t ================\n";            
+           cout << "\t\t\t\t| Login Berhasil |" << endl;  
+		   cout << "\t\t\t\t ================\n";         
+           cout << " \n\n";          
+		   cout << " \n";            
+		   cout << "\t\t ===============================================\n"; 
+           cout << "\t\t|  Selamat datang Staff Adnan, selamat bekerja!|" << endl;            
+           cout << "\t\t| ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |" << endl;            
+           cout << "\t\t ===============================================\n\n";  
+		   username = "adnan";
+           i = 4;
+           login = "berhasil";        
+		   getch();
+		   kerja();	 // memanggil fungsi kerja
+		   } 
+		
 
        else { 
 		   cout << endl;
