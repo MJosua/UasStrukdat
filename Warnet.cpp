@@ -63,13 +63,8 @@ int main() {
    string password3 = "12345";  
    string user4="ade";// deklarasi user4 beserta isinya   
    string password4 ="12345";
-<<<<<<< HEAD
    string user5="adnan";// deklrasi user5 beserta isinya   
    string password5 ="12345";
-=======
-   string user5 ="adnan";    // deklarasi user5 beserta isinya
-   string password5 = "12345";   
->>>>>>> 2344a1755bcacb8a6a83e6b596a1cdd8c384901a
    string login = "block";    
    i = 1;    
    system("Color 70");
@@ -177,12 +172,8 @@ int main() {
 		   getch();
 		   kerja(); // memanggil funsi kerja
 		   } 	
-<<<<<<< HEAD
-		else if (user_input == user5 && pass_input == password5) {    
-=======
-	  
+	 
 	  else if (user_input == user5 && pass_input == password5) {    
->>>>>>> 2344a1755bcacb8a6a83e6b596a1cdd8c384901a
 	   	   system("cls");        
 		   cout << "\t\t\t\t ================\n";            
            cout << "\t\t\t\t| Login Berhasil |" << endl;  
@@ -190,7 +181,6 @@ int main() {
            cout << " \n\n";          
 		   cout << " \n";            
 		   cout << "\t\t ===============================================\n"; 
-<<<<<<< HEAD
            cout << "\t\t| Selamat datang Staff Adnan, selamat bekerja !|" << endl;            
            cout << "\t\t| ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |" << endl;            
            cout << "\t\t ===============================================\n\n";  
@@ -200,19 +190,6 @@ int main() {
 		   getch();
 		   kerja(); // memanggil funsi kerja
 		   } 	
-=======
-           cout << "\t\t|  Selamat datang Staff Adnan, selamat bekerja!|" << endl;            
-           cout << "\t\t| ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |" << endl;            
-           cout << "\t\t ===============================================\n\n";  
-		   username = "adnan";
-           i = 4;
-           login = "berhasil";        
-		   getch();
-		   kerja();	 // memanggil fungsi kerja
-		   } 
-		
-
->>>>>>> 2344a1755bcacb8a6a83e6b596a1cdd8c384901a
        else { 
 		   cout << endl;
            cout << "\t\t\t=============================\n";            
